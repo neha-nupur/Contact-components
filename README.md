@@ -30,3 +30,8 @@ This component displays a navigation bar at the top of the page.
 ## License
 
 This project is licensed under the MIT License.
+
+## Screenshot
+
+![image](https://github.com/neha-nupur/Contact-components/assets/110279038/3f779aa4-76c3-45ee-bfad-28b21c11f642)
+
