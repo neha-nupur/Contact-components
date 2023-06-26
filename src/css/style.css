@@ -5,13 +5,39 @@
 body {
   margin: 0;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  font-family: 'Inter', sans-serif;
-  background-color: whitesmoke;
+  font-family: "Lucida Handwriting", cursive;
+  background-color: #5C5470;
 }
 
 
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #352F44;
+  height: 90px;
+  padding: 30px 25px;
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px rgba(158, 158, 158, 0.374);
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+
+.nav--menu {
+  color:rgb(255, 199, 39);
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+.nav--menu:hover {
+  color: #ffffff;
+}
 
 .contacts {
   display: flex;
@@ -21,15 +47,22 @@ body {
 }
 
 .contact-card {
+  margin-top: 100px;
   flex-basis: 225px;
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 8px rgba(230, 230, 230, 0.388);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   padding: 13px;
   padding-bottom: 20px;
-  background-color: white;
+  background-color: #4f4567;
+  color:#b8b8b8;
 }
+
+.contact-card:hover {
+  box-shadow:0 0 11px #352F44; 
+}
+
 
 .contact-card > img {
   width: 100%;
@@ -42,6 +75,7 @@ body {
 .contact-card > h3 {
   font-weight: 700;
   font-size: 18px;
+  color:#ffffff;
 }
 
 .info-group {
@@ -57,6 +91,11 @@ body {
 .info-group > p {
   margin-block: 3px;
   font-size: 12px;
-  color: #2B283A;
+  color: #DBD8E3;
 }
 
+.credit {
+  color:#DBD8E3;
+  text-align: center;
+  margin-top: 100px;
+}
