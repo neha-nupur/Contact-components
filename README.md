@@ -29,7 +29,7 @@ This component displays a navigation bar at the top of the page.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License...
 
 ## Screenshot
 
